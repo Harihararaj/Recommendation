@@ -89,7 +89,7 @@ Visit `http://127.0.0.1:8080` in your browser or use a tool like Postman to send
 Run the provided deployment script (`deploy_sagemaker.py`) to create the model, endpoint configuration, and endpoint:
 
 ```bash
-python deploy_sagemaker.py
+Execute deploy_sagemaker.ipynb in the AWS Sagemaker
 ```
 
 ---
