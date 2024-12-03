@@ -53,7 +53,7 @@ The repository is organized as follows:
 To build the Docker image, run the following command:
 
 ```bash
-docker build -t recommender .
+docker buildx build --platform linux/amd64 -t als-recommender .
 ```
 
 ### Testing Locally
